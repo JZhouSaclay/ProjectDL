@@ -1,9 +1,14 @@
+default_language_version:
+  python: python3.11 # 将其设置为你的虚拟环境中的 Python 版本
+
 repos:
   - repo: https://github.com/psf/black
-    rev: 23.1.0 # 替换为最新版本号
+    rev: 24.10.0
     hooks:
       - id: black
-  - repo: https://github.com/PyCQA/flake8
-    rev: 6.1.0 # 替换为最新版本号
+        language_version: python3.10
+  - repo: https://github.com/pycqa/flake8
+    rev: 7.1.1
     hooks:
       - id: flake8
+exclude: (\.eggs|\.git|\.hg|\.mypy_cache|\.nox|\.tox|\.venv|_build|buck-out|build|dist)
