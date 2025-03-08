@@ -128,3 +128,6 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+
+# 忽略 macOS 生成的 .DS_Store 文件
+.DS_Store
