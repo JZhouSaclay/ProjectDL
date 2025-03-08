@@ -9,3 +9,5 @@ class PositionEmbedding(torch.nn.Module):
          pe = pos/fenmu
 
 
+
+# test num 2
