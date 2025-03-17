@@ -1,4 +1,5 @@
-import torch 
+
+import torch
 import math
 
 class FullyConnectedOutput(torch.nn.Module):

@@ -1,3 +1,5 @@
+import torch
+
 #test youwei 
 class PositionEmbedding(torch.nn.Module):
    def __init__(self):
@@ -10,5 +12,5 @@ class PositionEmbedding(torch.nn.Module):
 
 
 
-# test num 2
+# test num 2p
 # test 3
